@@ -77,7 +77,7 @@ The skill still works using its built-in reference files:
 
 You get the structured 7-phase workflow and design system best practices. You just won't have personalized token values — you'll define them yourself in your project's CSS.
 
-### 3. Use It
+## Usage
 
 ```
 /design build a settings page with sidebar navigation and form sections

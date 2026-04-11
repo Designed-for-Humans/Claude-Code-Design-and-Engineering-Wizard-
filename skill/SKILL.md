@@ -1,7 +1,7 @@
 ---
 name: design
 description: Build production-quality UI interfaces using design system discipline — structured phases from context through QA, powered by Design Systems for Humans tokens and component docs.
-user_invocable: true
+user-invocable: true
 ---
 
 # Design System Wizard

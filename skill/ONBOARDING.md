@@ -32,28 +32,12 @@ The Design System Wizard works at three tiers. The full experience requires a **
 
 ### Step 2: Connect to Claude Code
 
-Run this command in your terminal:
+Your MCP connection command is available in the web app under **Settings > MCP** after signing in. It includes your authenticated endpoint URL.
 
-```bash
-claude mcp add design-system -t http https://zncwlnoobrkxfghglpep.supabase.co/functions/v1/design-system-mcp/mcp
-```
-
-For **Claude Desktop**, add to your config:
-```json
-{
-  "mcpServers": {
-    "design-system": {
-      "type": "http",
-      "url": "https://zncwlnoobrkxfghglpep.supabase.co/functions/v1/design-system-mcp/mcp"
-    }
-  }
-}
-```
-
-For **Cursor IDE**:
-- Settings → Features → MCP → Add Server
-- Type: HTTP
-- URL: `https://zncwlnoobrkxfghglpep.supabase.co/functions/v1/design-system-mcp/mcp`
+The settings page provides ready-to-copy instructions for:
+- **Claude Code** (CLI command)
+- **Claude Desktop** (JSON config)
+- **Cursor IDE** (settings path)
 
 ### Step 3: Verify Connection
 
@@ -77,7 +61,7 @@ If your tokens come back with your custom values, you're connected.
 
 ## Tier 2: Free Account + MCP Server (Partial)
 
-Sign up for free at systems.designedforhumans.tech and connect the MCP server (same steps as Tier 1, Steps 2-3).
+Sign up for free at **[systems.designedforhumans.tech](https://systems.designedforhumans.tech)** and connect the MCP server — your connection details are in the web app under **Settings > MCP**.
 
 ### What You Get (Free)
 - **Component docs** (`get_component_docs`) — full NN/g-style documentation for 20+ component types
@@ -132,7 +116,7 @@ You won't have personalized token values, but the wizard will still enforce:
 ## Troubleshooting
 
 ### "MCP server not responding"
-- Check the health endpoint: `https://zncwlnoobrkxfghglpep.supabase.co/functions/v1/design-system-mcp/health`
+- Check the health endpoint listed in your **Settings > MCP** page in the web app
 - Verify your auth token hasn't expired (log back in at systems.designedforhumans.tech)
 
 ### "Tokens returning default values"

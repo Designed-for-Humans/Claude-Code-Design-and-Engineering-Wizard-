@@ -44,11 +44,7 @@ The complete workflow with live, personalized tokens.
 1. Sign up at **[systems.designedforhumans.tech](https://systems.designedforhumans.tech)**
 2. Upgrade to **Pro**
 3. Create your design system (17 templates or build from scratch)
-4. Connect the MCP server:
-
-```bash
-claude mcp add design-system -t http https://zncwlnoobrkxfghglpep.supabase.co/functions/v1/design-system-mcp/mcp
-```
+4. Connect the MCP server — your connection command is in the web app under **Settings > MCP**
 
 **What you get:**
 - Your personalized design tokens (colors, typography, spacing, borders, shadows)
@@ -60,7 +56,7 @@ claude mcp add design-system -t http https://zncwlnoobrkxfghglpep.supabase.co/fu
 
 ### Tier 2: Free Account (Partial MCP)
 
-Sign up for free and connect the MCP server. You get:
+Sign up for free and connect the MCP server (connection details are in the web app after signup). You get:
 
 - Component documentation (`get_component_docs`) — full NN/g-style docs for 20+ components
 - Accessibility guidelines (`get_accessibility_guidelines`) — WCAG requirements per component
